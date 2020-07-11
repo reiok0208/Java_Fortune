@@ -16,13 +16,13 @@ public class Fortune {
 		    System.out.println("実行回数を入力してください");
 		    Scanner scan = new Scanner(System.in);
 		    int num = scan.nextInt();
-            for(int i = 0; i < num; i++) {
-            	String result = fortune[r.nextInt(fortune.length)];
-		        System.out.println("結果は" + result + "です");
-            }
+		    for(int i = 0; i < num; i++) {
+		    	String result = fortune[r.nextInt(fortune.length)];
+		    	System.out.println("結果は" + result + "です");
+		    }
 		}catch (InputMismatchException e) {
-        	System.out.println("数値以外が入力されました");
-        }
+			System.out.println("数値以外が入力されました");
+		}
 	}
 
 }
