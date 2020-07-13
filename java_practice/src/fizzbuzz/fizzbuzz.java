@@ -9,8 +9,8 @@ public class fizzbuzz {
 		System.out.println("FizzBuzzゲームを開始します");
 		try {
 			System.out.println("実行回数を入力してください");
-		    Scanner scan = new Scanner(System.in);
-		    int num = scan.nextInt();
+			Scanner scan = new Scanner(System.in);
+			int num = scan.nextInt();
 			for(int i = 1; i <= num; i++) {
 				if(i % 15 == 0) {
 					System.out.println("FizzBuzz");
